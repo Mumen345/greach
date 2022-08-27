@@ -6,8 +6,11 @@ import Hero from './components/Hero.vue'
 </script>
 
 <template>
-    <Navigation />
-    <Hero />
+<div class="headersection">
+
+  <Navigation />
+  <Hero />
+</div>
     
     <!-- <HelloWorld /> -->
   <!-- <header>
@@ -26,5 +29,9 @@ import Hero from './components/Hero.vue'
 </template>
 
 <style scoped>
-
+ .headersection{
+   background-image: url("@/assets/BG.svg");
+        min-height: 100vh;
+        width: 100%;
+ }
 </style>

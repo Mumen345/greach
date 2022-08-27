@@ -12,9 +12,9 @@ defineProps({
   <div class="nav_bar">
 <RouterLink class="logo" to="/">Greach</RouterLink>
 <div >
-    <RouterLink to="/">How it works</RouterLink>
-    <RouterLink class="middle_links" to="/about">Download</RouterLink>
-    <RouterLink to="/about">Conatct Us</RouterLink>
+    <RouterLink to="#">How it works</RouterLink>
+    <RouterLink class="middle_links" to="#">Download</RouterLink>
+    <RouterLink to="#">Conatct Us</RouterLink>
 </div>
 <button class="nav_button">Register</button>
   </div>
@@ -26,15 +26,16 @@ defineProps({
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-   width: 90%;
-   max-width: 1550px;
-   margin: 20px auto;
+   width: 100%;
+   margin: 25px auto;
+   padding: 0 40px;
 gap: 275px;
-background: rgba(255, 255, 255, 0.08);
-backdrop-filter: blur(14px);
+background: #ffffff05;
+backdrop-filter: blur(10px);
     position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
+  z-index: 99;
 }
 .middle_links{
    margin:0 30px
