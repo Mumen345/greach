@@ -5,8 +5,8 @@
                 <p class="hero_text">Find the <span>best </span> <br> Taxi <span>ride</span> for <br> you</p>
             <p class="hero_subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dignissim maurisonsectetur adipiscing elit. Ac dignissim maurisonsectetur adipiscing elit. Ac dignissim mauris pellentesque vitae. Dui lacus et dui euismod interdum ut. At </p>
             <div class="button_div">
-        <button class="primary_button">Download</button>
-        <button class="secondary_button">Join Waitlist</button>
+                <button class="primary_button">Download</button>
+                <button class="secondary_button">Join Waitlist</button>
             </div>
         <div class="hero_stats">
             <div>
@@ -67,20 +67,28 @@
         font-weight: 700;
     }
     .hero_subtext{
-        /* width: 30%; */
+        width: 75%;
 font-size: 16px;
 line-height: 36px;
 color: #404040;
     }
     .hero_container{
         display: flex;
-        justify-content: space-evenly;
-        align-items: flex-start;
-        height: 100vh;
-        width: 94%;
+        justify-content: space-between;
+        width: 90%;
         margin: 0 auto;
+  background-image: url("@/assets/BG.svg");
        
     }
+   
+    .button_div{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+   
     .primary_button {
         background-color: #0FAC11;
         border: none;
@@ -89,8 +97,13 @@ color: #404040;
         padding: 1.3em 4.5em;
         border-radius: 5px;
     }
+     .primary_button:hover{
+        background-color: #056406;
+        transition: 0.3s;
+        cursor: pointer;
+    }
     .secondary_button {
-           background-color: transparent;
+        background-color: transparent;
         border: none;
         color: #000000;
         font-weight: 700;
@@ -98,11 +111,11 @@ color: #404040;
         border-radius: 5px;
         border: 1px dashed #000000;
     }
-    .button_div{
-        width: 70%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+    .secondary_button:hover{
+        background-color: #000000;
+        color: #ffffff;
+        cursor: pointer;
+        transition: 0.3s;
     }
     .hero_stats_header {
         font-weight: 800;
@@ -110,4 +123,48 @@ color: #404040;
         line-height: 48px;
         letter-spacing: 1px;
     }
+    /*  */
+    @media screen and (max-width: 1080px) {
+     .hero_container{
+        display: block;
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+  background-image: url("@/assets/BG.svg");
+  }
+   .hero_subtext{
+        width: 100%;
+        font-size: 16px;
+        line-height: 36px;
+        color: #404040;
+        margin-top: 10px;
+    }
+     .smallbtn {
+        font-size: 12px;
+        color: #ffffff;
+        background-color: #0FAC11;
+        border-radius: 4px;
+        padding: 10px;
+        font-weight: 600;
+        width: 30%;
+        margin: 20px auto 0;
+        text-align: center;
+    }
+      .button_div{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 20px auto;
+    }
+    .hero_stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 70%;
+    margin: 0 auto 30px;
+   
+}
+}
 </style>

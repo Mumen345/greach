@@ -27,14 +27,14 @@ defineProps({
     justify-content: space-between;
     align-items: center;
    width: 100%;
-   padding: 20px 40px;
-  gap: 275px;
-  background: #ffffff05;
+   padding: 20px 5%;
+  background: #fefefe10;
   backdrop-filter: blur(10px);
     position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
   z-index: 99;
+
 }
 .middle_links{
    margin:0 30px
@@ -54,4 +54,5 @@ a{
     font-weight: 700;
     color: #0FAC11;
 }
+
 </style>

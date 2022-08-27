@@ -1,7 +1,8 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 // import HelloWorld from './components/HelloWorld.vue'
-import Navigation from './components/Navigation.vue'
+import Navigation from './components/Navigation.vue' 
+import Howitworks from './components/Howitworks.vue' 
 import Hero from './components/Hero.vue'
 </script>
 
@@ -11,6 +12,7 @@ import Hero from './components/Hero.vue'
   <Navigation />
   <Hero />
 </div>
+  <Howitworks />
     
     <!-- <HelloWorld /> -->
   <!-- <header>
@@ -30,6 +32,7 @@ import Hero from './components/Hero.vue'
 
 <style scoped>
  .headersection{
-   
+    background-image: url("@/assets/BG.svg");
+
  }
 </style>
