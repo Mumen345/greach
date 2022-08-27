@@ -27,11 +27,10 @@ defineProps({
     justify-content: space-between;
     align-items: center;
    width: 100%;
-   margin: 25px auto;
-   padding: 0 40px;
-gap: 275px;
-background: #ffffff05;
-backdrop-filter: blur(10px);
+   padding: 20px 40px;
+  gap: 275px;
+  background: #ffffff05;
+  backdrop-filter: blur(10px);
     position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;

@@ -30,8 +30,6 @@ import Hero from './components/Hero.vue'
 
 <style scoped>
  .headersection{
-   background-image: url("@/assets/BG.svg");
-        min-height: 100vh;
-        width: 100%;
+   
  }
 </style>

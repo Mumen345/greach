@@ -1,11 +1,24 @@
 <template >
     <div class="hero_container">
-        <div>
-            
-            <p class="smallbtn">GREACH A RIDE</p>
-            <p class="hero_text">Find the <span>best</span>  
-    Taxi <span>ride</span> for you</p>
-    <p class="hero_subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dignissim mauris pellentesque vitae. Dui lacus et dui euismod interdum ut. At </p>
+        <div class="left_hero_text">
+                <p class="smallbtn">GREACH A RIDE</p>
+                <p class="hero_text">Find the <span>best </span> <br> Taxi <span>ride</span> for <br> you</p>
+            <p class="hero_subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dignissim maurisonsectetur adipiscing elit. Ac dignissim maurisonsectetur adipiscing elit. Ac dignissim mauris pellentesque vitae. Dui lacus et dui euismod interdum ut. At </p>
+            <div class="button_div">
+        <button class="primary_button">Download</button>
+        <button class="secondary_button">Join Waitlist</button>
+            </div>
+        <div class="hero_stats">
+            <div>
+                <p class="hero_stats_header">500</p>
+                <p>Drivers and Riders Available</p>
+            </div>
+            <div>
+                <p class="hero_stats_header">99%</p>
+                <p>Fast and Reliable</p>
+            </div>
+        </div>
+   
         </div>
         <div>
             <img alt="Hero Img" class="logo" src="@/assets/hero_img.png"/>
@@ -15,6 +28,21 @@
 <script setup>
 </script>
 <style scoped>
+.hero_stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 70%;
+   
+}
+.left_hero_text {
+     display: flex;
+     flex-direction: column;
+     justify-content: baseline;
+     gap: 10px;
+
+}
     .smallbtn {
         font-size: 12px;
         color: #ffffff;
@@ -22,13 +50,16 @@
         border-radius: 4px;
         padding: 10px;
         font-weight: 600;
-        width: 20%;
+        width: 30%;
+        text-align: center;
     }
     .hero_text {
         font-size: 60px;
-        color: #404040;
-        font-weight: 700;
-        width: 70%;
+        color: #000000;
+        font-weight: 900;
+        /* width: 80%; */
+        line-height: 70px;
+        letter-spacing: 5px;
     }
     span{
         color: #0FAC11;
@@ -46,6 +77,37 @@ color: #404040;
         justify-content: space-evenly;
         align-items: flex-start;
         height: 100vh;
+        width: 94%;
+        margin: 0 auto;
        
+    }
+    .primary_button {
+        background-color: #0FAC11;
+        border: none;
+        color: #ffffff;
+        font-weight: 700;
+        padding: 1.3em 4.5em;
+        border-radius: 5px;
+    }
+    .secondary_button {
+           background-color: transparent;
+        border: none;
+        color: #000000;
+        font-weight: 700;
+        padding: 1.3em 3.5em;
+        border-radius: 5px;
+        border: 1px dashed #000000;
+    }
+    .button_div{
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .hero_stats_header {
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 48px;
+        letter-spacing: 1px;
     }
 </style>
