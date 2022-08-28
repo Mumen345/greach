@@ -14,7 +14,7 @@ defineProps({
 <div >
     <RouterLink to="#">How it works</RouterLink>
     <RouterLink class="middle_links" to="#">Download</RouterLink>
-    <RouterLink to="#">Conatct Us</RouterLink>
+    <RouterLink to="#">Contact Us</RouterLink>
 </div>
 <button class="nav_button">Register</button>
   </div>
@@ -22,15 +22,15 @@ defineProps({
 
 <style scoped>
 .nav_bar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-   width: 100%;
-   padding: 20px 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 5%;
   background: #fefefe10;
   backdrop-filter: blur(10px);
-    position: -webkit-sticky; /* Safari */
+  position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
   z-index: 99;
@@ -46,7 +46,8 @@ a{
 .nav_button {
     background-color: #000000;
     color: #ffffff;
-    padding: 1em 3.5em;
+    padding: 0.7em 2em;
+    font-size: 12px;
     border-radius: 5px;
 }
 .logo {

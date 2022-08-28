@@ -74,7 +74,7 @@ color: #404040;
     }
     .hero_container{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         width: 90%;
         margin: 0 auto;
   background-image: url("@/assets/BG.svg");
@@ -82,7 +82,7 @@ color: #404040;
     }
    
     .button_div{
-        width: 80%;
+        width: 75%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -94,7 +94,8 @@ color: #404040;
         border: none;
         color: #ffffff;
         font-weight: 700;
-        padding: 1.3em 4.5em;
+         padding: 1.3em 3.5em;
+    font-size: 12px;
         border-radius: 5px;
     }
      .primary_button:hover{
