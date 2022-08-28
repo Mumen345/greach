@@ -3,16 +3,17 @@ import { RouterLink, RouterView } from 'vue-router'
 // import HelloWorld from './components/HelloWorld.vue'
 import Navigation from './components/Navigation.vue' 
 import Howitworks from './components/Howitworks.vue' 
+import DownloadSection from './components/DownloadSection.vue' 
 import Hero from './components/Hero.vue'
 </script>
 
 <template>
 <div class="headersection">
-
   <Navigation />
   <Hero />
 </div>
   <Howitworks />
+  <DownloadSection />
     
     <!-- <HelloWorld /> -->
   <!-- <header>
@@ -33,6 +34,9 @@ import Hero from './components/Hero.vue'
 <style scoped>
  .headersection{
     background-image: url("@/assets/BG.svg");
+    width: 100%;
+    height: 100%;
+    padding-bottom: 70px;
 
  }
 </style>

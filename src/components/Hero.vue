@@ -95,7 +95,6 @@ color: #404040;
         color: #ffffff;
         font-weight: 700;
          padding: 1.3em 3.5em;
-    font-size: 12px;
         border-radius: 5px;
     }
      .primary_button:hover{
