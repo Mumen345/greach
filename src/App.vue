@@ -4,6 +4,9 @@ import { RouterLink, RouterView } from 'vue-router'
 import Navigation from './components/Navigation.vue' 
 import Howitworks from './components/Howitworks.vue' 
 import DownloadSection from './components/DownloadSection.vue' 
+import Waitlist from './components/Waitlist.vue' 
+import Newsletter from './components/Newsletter.vue' 
+import Footer from './components/Footer.vue' 
 import Hero from './components/Hero.vue'
 </script>
 
@@ -14,6 +17,9 @@ import Hero from './components/Hero.vue'
 </div>
   <Howitworks />
   <DownloadSection />
+  <Waitlist />
+  <Newsletter />
+  <Footer />
     
     <!-- <HelloWorld /> -->
   <!-- <header>

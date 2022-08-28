@@ -28,7 +28,7 @@ defineProps({
   align-items: center;
   width: 100%;
   padding: 20px 5%;
-  background: #fefefe10;
+  background: transparent;
   backdrop-filter: blur(10px);
   position: -webkit-sticky; /* Safari */
   position: sticky;
