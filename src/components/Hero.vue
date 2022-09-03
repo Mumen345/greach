@@ -23,7 +23,7 @@
         </div>
    
         </div>
-        <div class="web">
+        <div class="">
             <img alt="Hero Img" class="logo" src="@/assets/hero_img.png"/>
         </div>
     </div>
@@ -49,7 +49,7 @@ color: #FFFFFF;
 }
 .fifth_text {
     font-weight: 800;
-font-size: 55.2632px;
+font-size: 60px;
 line-height: 83px;
 letter-spacing: 5.52632px;
 color: #ffffff;
@@ -165,30 +165,23 @@ letter-spacing: 5.52632px;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 90%;
-        margin: 70px auto -20px;
-  background-image: url("@/assets/BG.svg");
+        width: 100%;
+        margin: 15% auto -20px;
   }
    .hero_subtext{
         width: 100%;
         font-size: 16px;
         line-height: 36px;
-        color: #404040;
+        color: #ffffff;
         margin-top: 10px;
     }
      .smallbtn {
-        font-size: 12px;
-        color: #ffffff;
-        background-color: #0FAC11;
-        border-radius: 4px;
-        padding: 10px;
         font-weight: 600;
-        width: 30%;
         margin: 20px auto 0;
         text-align: center;
     }
       .button_div{
-        width: 80%;
+        width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -197,8 +190,9 @@ letter-spacing: 5.52632px;
     .hero_stats {
     display: flex;
     flex-direction: row;
-    gap: 30%;
-    width: 90%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     margin: 0 auto 60px;
    
 }

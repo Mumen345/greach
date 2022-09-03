@@ -5,9 +5,9 @@ import Navigation from './components/Navigation.vue'
 import Howitworks from './components/Howitworks.vue' 
 import DownloadSection from './components/DownloadSection.vue' 
 import Waitlist from './components/Waitlist.vue' 
-import Newsletter from './components/Newsletter.vue' 
+// import Newsletter from './components/Newsletter.vue' 
 import Hero from './components/Hero.vue'
-import Footer from './components/Footer.vue' 
+import FooterSection from './components/FooterSection.vue' 
 </script>
 
 <template>
@@ -18,8 +18,8 @@ import Footer from './components/Footer.vue'
   <Howitworks />
   <DownloadSection />
   <Waitlist />
-  <Newsletter />
-  <Footer />
+  <!-- <Newsletter /> -->
+  <FooterSection />
     
     <!-- <HelloWorld /> -->
   <!-- <header>
@@ -43,6 +43,8 @@ import Footer from './components/Footer.vue'
     width: 100%;
     height: 100%;
     padding-bottom: 70px;
+    background-repeat: repeat;
+    background-size: cover;
 
  }
 </style>
