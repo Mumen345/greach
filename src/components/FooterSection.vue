@@ -15,7 +15,7 @@
             <div class="footer_contact">
                 <h3 class="contact_div_text">Contact </h3>
                 <div class="contact_info">
-                    <img alt="apple logo" src="@/assets/frame1.svg" /> 
+                    <img alt="apple logo" src="@/assets/Frame1.svg" /> 
                     <a href="#"> (406) 555-0120</a>
                 </div>
                 <div class="contact_info">
@@ -23,7 +23,7 @@
                     <a href="#">  help123@greach.co</a>
                 </div>
                 <div class="contact_info">
-                    <img alt="apple logo" src="@/assets/frame3.svg" />
+                    <img alt="apple logo" src="@/assets/Frame3.svg" />
                     <a href="#"> 2972 Westheimer Rd. Santa Ana, Illinois 85486 </a>
                 </div>
             </div>
