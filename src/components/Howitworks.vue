@@ -1,6 +1,6 @@
 <template>
 <div class="hiw_container">
-    <div>
+    <div class="hiw_writeup_div">
         <div>
             <p class="HIW_text">How it works</p>   
         </div>
@@ -37,14 +37,16 @@
 </script>
 <style scoped>
 .hiw_container img {
-    margin: 30px;
+    /* margin: 30px; */
 }
+
 .hiw_container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
     margin: 100px auto;
+    gap: 42px;
     width: 90%;
 }
 
@@ -61,7 +63,7 @@
         background: #FFFFFF;
         border: 1px solid #EEEEEE;
         width: 483px;
-        margin-top: 20px;
+        margin-top: 10%;
         
     }
     .hiw_section_title {

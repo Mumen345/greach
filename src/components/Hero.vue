@@ -5,7 +5,7 @@
                 <P class="second_text">Community of</P>
                 <P class="third_text"><span>Friends</span>  and </P>
                 <p class="forth_text"><span>Professionals</span></p>
-                <p class="fifth_text"><span>on the go...</span></p>
+                <p class="fifth_text">on the<span> go...</span></p>
             <p class="hero_subtext">Greach a Ride with a Trusted Community of Friends and Working Professionals</p>
             <div class="button_div">
                 <button class="primary_button">Download App</button>
