@@ -4,22 +4,23 @@
             <p class="form_header">Join our Wait List</p>
             <form class="form_input" action="">
                 <div>
-                 <label for="cars">*Name:</label>
+                 <label for="cars">*Name :</label>
                  <input id="name" required type="text" class="">
                 </div>
                 <div>
-                    <label for="cars">*Email:</label>
+                    <label for="cars">*Email :</label>
                     <input id="email"  type="email" required class="">
                 </div>
                 <div>
-                 <label for="cars">Where do you work:</label>
+                 <label for="cars">Where do you work :</label>
                  <input id="name" required type="text" class="">
                 </div>
-                <label for="cars">Do you have a car?</label>
+                <label for="cars">*Which would you prefer</label>
                 <select id="cars">
                 <option>Select one</option>
-                <option value="volvo">Yes</option>
-                <option value="saab">No</option>
+                <option value="Yes">Driver</option>
+                <option value="Yes">Rider</option>
+                <option value="both">Both</option>
                 </select>
                 <button class="primary_button">Join</button>
             </form>
