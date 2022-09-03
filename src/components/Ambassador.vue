@@ -64,4 +64,20 @@ export default {
         cursor: pointer;
          border: 1px solid #056406;
     }
+@media screen and (max-width: 1080px) {
+    .ambassador_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 46px;
+        text-align: center;
+    }
+      .ambassador_writeup {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 46px;
+    }
+}
 </style>
