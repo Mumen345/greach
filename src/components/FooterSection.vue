@@ -30,7 +30,7 @@
         </div>
             <hr class="line">
         <div class="last_section">
-            <img alt="apple logo" src="@/one.svg" />
+            <img alt="apple logo" src="@/assets/one.svg" />
             <div class="">
                 <img alt="apple logo" src="@/assets/facebook.svg" />
                 <img alt="apple logo" src="@/assets/twitter.svg" />
