@@ -31,9 +31,7 @@
 
 </script>
 <style scoped>
-    .waitlist_container p{
-    
-    }
+
     .waitlist_container{
     background-image: url("@/assets/waitlist_bg.png");
      background-attachment: fixed;

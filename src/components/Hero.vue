@@ -1,11 +1,9 @@
 <template >
     <div class="hero_container">
         <div class="left_hero_text">
-                <p class="smallbtn">Greach a Ride with a Trusted</p>
-                <P class="second_text">Community of</P>
-                <P class="third_text">Friends and </P>
-                <p class="forth_text">Professionals</p>
-                <p class="fifth_text">on the go...</p>
+            <p> <span class="smallbtn">Greach a Ride with a Trusted</span> <br>  <span class="third_text">Community of </span> <span class="third_text">Friends and </span> <span class="third_text">Professionals</span> 
+                </p>
+                <p class="forth_text">on the go...</p> 
             <p class="hero_subtext">Greach a Ride with a Trusted Community of Friends and Working Professionals</p>
             <div class="button_div">
                 <button class="primary_button">Download App</button>
@@ -53,17 +51,17 @@ font-size: 60px;
 color: #ffffff;
 }
 .forth_text{
-    font-style: normal;
-font-weight: 800;
-font-size: 55.2632px;
-letter-spacing: 6px;
-color: #ffffff;
+    font-weight: 800;
+    font-size: 55.26px;
+    letter-spacing: 5.52632px;
+    color: #ffffff;
+    margin-top: -15px;
 }
 .left_hero_text {
      display: flex;
      flex-direction: column;
      justify-content: baseline;
-     gap: 10px;
+     gap: 16px;
 
 }
 .third_text {
@@ -90,9 +88,7 @@ color: #ffffff;
         letter-spacing: 5px;
     }
     span{
-        color: #0FAC11;
-       font-weight: inherit !important;
-       font-size: inherit !important;
+        color: inherit;
     }
     .hero_subtext{
         width: 75%;
@@ -163,7 +159,7 @@ color: #ffffff;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 100%;
+        width: 80%;
         margin: 15% auto -20px;
   }
    .hero_subtext{

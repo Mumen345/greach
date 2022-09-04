@@ -8,6 +8,7 @@ import Waitlist from './components/Waitlist.vue'
 // import Newsletter from './components/Newsletter.vue' 
 import Ambassador from './components/Ambassador.vue' 
 import Hero from './components/Hero.vue'
+import Faq from './components/Faq.vue' 
 import FooterSection from './components/FooterSection.vue' 
 </script>
 
@@ -20,6 +21,7 @@ import FooterSection from './components/FooterSection.vue'
   <DownloadSection />
   <Waitlist />
   <!-- <Newsletter /> -->
+  <Faq />
   <Ambassador />
   <FooterSection />
     
