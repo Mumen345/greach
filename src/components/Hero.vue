@@ -3,15 +3,15 @@
         <div class="left_hero_text">
                 <p class="smallbtn">Greach a Ride with a Trusted</p>
                 <P class="second_text">Community of</P>
-                <P class="third_text"><span>Friends</span>  and </P>
-                <p class="forth_text"><span>Professionals</span></p>
-                <p class="fifth_text">on the<span> go...</span></p>
+                <P class="third_text">Friends and </P>
+                <p class="forth_text">Professionals</p>
+                <p class="fifth_text">on the go...</p>
             <p class="hero_subtext">Greach a Ride with a Trusted Community of Friends and Working Professionals</p>
             <div class="button_div">
                 <button class="primary_button">Download App</button>
                 <button class="secondary_button">Join Waitlist</button>
             </div>
-        <div class="hero_stats">
+        <!-- <div class="hero_stats">
             <div>
                 <p class="hero_stats_header">500+</p>
                 <p>Drivers and Riders <br> Available</p>
@@ -20,7 +20,7 @@
                 <p class="hero_stats_header">99%</p>
                 <p>Secure and <br> Affordable</p>
             </div>
-        </div>
+        </div> -->
    
         </div>
         <div class="">
@@ -41,25 +41,23 @@
 }
 .second_text {
     font-style: normal;
-font-weight: 800;
-font-size: 36px;
-line-height: 54px;
-letter-spacing: 6px;
-color: #FFFFFF;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 6px;
+    color: #FFFFFF;
 }
 .fifth_text {
     font-weight: 800;
 font-size: 60px;
-line-height: 83px;
-letter-spacing: 5.52632px;
 color: #ffffff;
 }
 .forth_text{
     font-style: normal;
 font-weight: 800;
 font-size: 55.2632px;
-line-height: 83px;
-letter-spacing: 5.52632px;
+letter-spacing: 6px;
+color: #ffffff;
 }
 .left_hero_text {
      display: flex;
@@ -81,7 +79,7 @@ letter-spacing: 5.52632px;
         font-style: normal;
         font-weight: 600;
         font-size: 16px;
-        color: #2AAA0B;
+        color: #ffffff;
     }
     .hero_text {
         font-size: 60px;

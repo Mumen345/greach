@@ -6,7 +6,10 @@
                 <img alt="foter Img" class="" src="@/assets/footer_logo.svg"/>
                 <h4 class="logo_div_text">Greach</h4>
                 </div>
-                <p class="company_description">Lörem ipsum od ohet dilogi. Bell trabel, samuligt, ohöbel utom diska. Jinesade bel när feras redorade i belogi. FAR paratyp i muvåning, och pesask vyfisat. Viktiga poddradio har un mad och inde. </p>
+                <p class="company_description">Greach is a sustainability-driven mobility platform to ease employee commuting problems through carpooling.
+                </p>
+                    <p class="company_description">Greach creates a network that enables verified passengers to book empty seats in cars of verified drivers going the same route; while providing the affordability of a public bus and the comfortability of a private car.</p>
+
                 <div class="download_link">
                     <a href="#"><img alt="apple logo" src="@/assets/appstore.svg"/></a>
                     <a href="#"><img alt="play store logo" src="@/assets/googleplay.svg"/></a>
