@@ -19,7 +19,6 @@
                 <p>Secure and <br> Affordable</p>
             </div>
         </div> -->
-   
         </div>
         <div class="">
             <img alt="Hero Img" class="web" src="@/assets/hero_img.png"/>
@@ -105,7 +104,6 @@ color: #ffffff;
         width: 90%;
         margin: 9% auto 0;
         /* background-image: url("@/assets/BG.svg"); */
-       
     }
    
     .button_div{
@@ -153,8 +151,8 @@ color: #ffffff;
     }
     /*  */
     .mobile{
-display: none;
-}
+        display: none;
+    }
     @media screen and (max-width: 700px) {
           .button_div{
         width: 100%;
@@ -212,7 +210,6 @@ display: none;
     align-items: center;
     width: 100%;
     margin: 0 auto 60px;
-   
 }
 }
 
