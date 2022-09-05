@@ -198,5 +198,16 @@ input:checked ~ .accordion-content {
     max-height: 100vh;
     padding: 16px;
 }
-  
+    @media screen and (max-width: 1080px) {
+        .FAQ_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin: 10% auto;
+        gap: 50px;
+        max-width: 1440px;
+    }
+    }
 </style>

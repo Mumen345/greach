@@ -69,15 +69,34 @@ export default {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap: 46px;
+        gap: 23px;
         text-align: center;
+        width: 90% !important;
+        margin: 0 auto;
     }
       .ambassador_writeup {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 0px;
-        gap: 46px;
+        justify-content: center;
+        padding: 0;
+        gap: 23px;
+        margin: 0 auto;
+      
+    }
+       .ambassador_subtext {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 36px;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
     }
 }
+    @media screen and (max-width: 700px) {
+.web_img {
+    width: 90%;
+}
+    }
 </style>

@@ -3,17 +3,17 @@
         <div class="footer_container">
             <div class="left_div">
                 <div class="logo_div">
-                    <img alt="Hero Img" class="logo" src="@/assets/greach_logo.png"/>
+                    <img alt="Hero Img" class="logo_img" src="@/assets/greach_logo.png"/>
                
                 </div>
                 <p class="company_description">Greach is a sustainability-driven mobility platform to ease employee commuting problems through carpooling.
                 </p>
                     <p class="company_description">Greach creates a network that enables verified passengers to book empty seats in cars of verified drivers going the same route; while providing the affordability of a public bus and the comfortability of a private car.</p>
 
-                <div class="download_link">
+                <!-- <div class="download_link">
                     <a href="#"><img alt="apple logo" src="@/assets/appstore.svg"/></a>
                     <a href="#"><img alt="play store logo" src="@/assets/googleplay.svg"/></a>
-                </div>
+                </div> -->
             </div>
             <div class="footer_contact">
                 <h3 class="contact_div_text">Contact </h3>
@@ -48,7 +48,10 @@
 <script setup>
 
 </script>
-<style scoped>
+<style scoped> 
+.logo_img {
+    width: 120px;
+}
     .line {
         width: 90%;
         height: 1px;
@@ -65,8 +68,9 @@
     .footer_section {
         background-color: #000000;
         display: block;
-       padding: 50px 0;
+       padding: 50px 30px;
        margin-top: 80px;
+       width: 100%;
        
     }
     .footer_container {
@@ -145,4 +149,27 @@
         gap: 10px;
     }
 }
+    @media screen and (max-width: 700px) {
+    .footer_container {
+        color: #cecece;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        margin: 0 auto;
+        box-sizing: border-box;
+        gap: 40px;
+    }
+    .logo_img {
+    width: 120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+   .company_description {
+        width: 100%;
+    }
+    }
 </style>

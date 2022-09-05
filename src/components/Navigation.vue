@@ -1,6 +1,6 @@
 <template>
   <nav class="nav_bar">
-    <RouterLink class="logo" to="/"><img alt="Hero Img" class="logo" src="@/assets/greach_logo.png"/></RouterLink>
+    <RouterLink class="" to="/"><img alt="Hero Img" class="logo" src="@/assets/greach_logo.png"/></RouterLink>
     
     <div class="web">
       <RouterLink to="#">How it works</RouterLink>
@@ -52,12 +52,13 @@ export default {
   justify-content: space-between;
   align-items: center;
   padding: 20px 5%;
-  background: transparent;
+  background: #0000000a;
   backdrop-filter: blur(10px);
   position: fixed;
   z-index: 2;
   transition: 0.5s ease all;
   max-width: 1440px;
+  margin: 0 auto;
 
 
 }
@@ -80,8 +81,9 @@ a{
     cursor: pointer;
 }
 .logo {
-    
-}.overlay {
+    width: 120px;
+}
+.overlay {
   height: 100%;
   width: 0;
   position: fixed;

@@ -22,7 +22,7 @@
         </div>
         <div class="">
             <img alt="Hero Img" class="web" src="@/assets/hero_img.png"/>
-            <img alt="Hero Img" class="mobile" src="@/assets/hero_img_mobile.png"/>
+            <img alt="Hero Img" class="mobile_img" src="@/assets/hero_img_mobile.png"/>
         </div>
     </div>
 </template>
@@ -30,7 +30,9 @@
 </script>
 <style scoped>
 
-
+.mobile_img {
+    display: none;
+}
 .hero_stats {
     display: flex;
     flex-direction: row;
@@ -62,8 +64,10 @@ color: #ffffff;
 .left_hero_text {
      display: flex;
      flex-direction: column;
-     justify-content: baseline;
+     justify-content: start;
      gap: 16px;
+     width: 100%;
+    margin-top: 20px;
 
 }
 .third_text {
@@ -85,7 +89,7 @@ color: #ffffff;
         font-size: 60px;
         color: #ffffff !important;
         font-weight: 900;
-        /* width: 80%; */
+        width: 80%;
         line-height: 70px;
         letter-spacing: 5px;
     }
@@ -107,8 +111,10 @@ color: #ffffff;
     }
    
     .button_div{
-        width: 100%;
+        width: 100% !important;
         display: flex;
+        align-items: center;
+        justify-content: center;
         gap: 20%;
         margin-top: 30px;
     }
@@ -120,7 +126,7 @@ color: #ffffff;
         font-weight: 700;
         padding: 1.3em 3.5em;
         border-radius: 5px;
-
+        width: 100%;
     }
      .primary_button:hover{
         background-color: #056406;
@@ -135,12 +141,14 @@ color: #ffffff;
         padding: 1.3em 3.5em;
         border-radius: 5px;
         border: 1px dashed #ffffff;
+        width: 100%;
     }
     .secondary_button:hover{
         background-color: #00000000;
         color: #ffffff;
         cursor: pointer;
         transition: 0.3s;
+        
     }
     .hero_stats_header {
         font-weight: 800;
@@ -154,25 +162,44 @@ color: #ffffff;
         display: none;
     }
     @media screen and (max-width: 700px) {
-          .button_div{
-        width: 100%;
+        .third_text {
+            font-weight: 800;
+            font-size: 30px;
+            line-height: 40px;
+            letter-spacing: 5.52632px;
+            color: #ffffff;
+            width: 100%;
+        }
+        .forth_text{
+            font-weight: 800;
+             font-size: 30px;
+            line-height: 40px;
+            letter-spacing: 5.52632px;
+            color: #ffffff;
+            margin-top: -15px;
+        }
+         .smallbtn {
+            width: 200px !important;
+            height: 24px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            color: #ffffff;
+        }
+        .button_div{
+            width: 100%;
         display: flex !important;
         flex-direction: column !important;
         gap: 30px;
         /* background-color: red; */
-        margin: 40px auto;
+        margin: 20px auto;
     }
-        .mobile{
+    .mobile_img{
     display: block;
     }
        .web{
       display: none;
     }
-    }
-    @media screen and (max-width: 1080px) {
-    /* .web{
-      display: none;
-    } */
     .mobile {
         display: none;
     }
@@ -182,8 +209,8 @@ color: #ffffff;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 80%;
-        margin: 15% auto -20px;
+        width: 100%;
+        margin: 30% auto -20px;
   }
    .hero_subtext{
         width: 100%;
@@ -203,14 +230,58 @@ color: #ffffff;
         flex-direction: column !important;
         gap: 30px;
     }
+
+    }
+    @media screen and (max-width: 1100px) {
+    /* .web{
+      display: none;
+    } */
+    .mobile {
+        display: none;
+    }
+    .hero_container{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        margin: 15% auto -20px;
+  }
+  .hero_subtext{
+        width: 100%;
+        font-size: 16px;
+        line-height: 36px;
+        color: #ffffff;
+        margin-top: 10px;
+    }
+     .smallbtn {
+        font-weight: 600;
+        margin: 20px auto 0;
+        text-align: center;
+    }
+      .button_div{
+        width: 100%;
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 30px;
+    }
     .hero_stats {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin: 0 auto 60px;
-}
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto 60px;
+    }
 }
 
+@media screen and (max-width: 500px) {
+        .hero_container{
+        display: flex;
+        width: 100% !important;
+        margin: 20% auto;
+        padding: 0 20px;
+  }
+}
 </style>

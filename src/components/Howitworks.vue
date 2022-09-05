@@ -29,7 +29,7 @@
        </div>
     </div>
     <div>
-        <img alt="Hero Img" class="logo" src="@/assets/works_img2.png"/>
+        <img alt="Hero Img" class="img_responsive" src="@/assets/works_img2.png"/>
     </div>
 </div>
 </template>
@@ -47,7 +47,7 @@
     align-items: flex-start;
     margin: 100px auto;
     gap: 42px;
-    width: 90%;
+    width: 80%;
 }
 
     .HIW_text {
@@ -88,7 +88,7 @@
             justify-content: space-between;
             align-items: center;
             margin: 100px auto;
-            width: 100%;
+            width: 90%;
         }
         .HIW_text {
             text-align: center;
@@ -104,5 +104,21 @@
         margin-top: 20px;
         
     }
+    }
+    @media screen and (max-width: 700px) {
+           .hiw_container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 100px auto;
+            width: 90%;
+        }
+        .img_responsive {
+            width: 80%;
+            display: flex;
+            margin: 0 auto;
+           
+        }
     }
 </style>

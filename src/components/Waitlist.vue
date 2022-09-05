@@ -117,4 +117,31 @@
         color: black;
         font-size: 13px;
     }
+
+@media screen and (max-width: 1080px) {
+
+        .waitlist_container{
+    background-image: url("@/assets/waitlist_bg.png");
+     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin: 100px 0;
+    }
+}
+    @media screen and (max-width: 700px) {
+            .form{
+        background-color: transparent;
+        border: none;
+        padding: 20px;
+        backdrop-filter: none;
+        border-radius: 3%;
+       
+    }
+    }
 </style>
