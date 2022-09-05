@@ -46,7 +46,7 @@ import FooterSection from './components/FooterSection.vue'
     background-image: url("@/assets/BG.svg");
     width: 100% !important;
     height: 100%;
-    padding-bottom: 70px;
+    /* padding-bottom: 70px; */
     background-repeat: repeat;
     background-size: cover;
  }

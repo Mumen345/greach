@@ -71,9 +71,8 @@
     .section_CTA {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: scenter;
         align-items: center;
-        margin: 20px 0;
     }
     .primary_button{
           background-color: #0FAC11;
@@ -127,7 +126,7 @@
             font-size: 12px;
             border-radius: 5px;
             cursor: pointer;
-            width: 70%;
+            width: 75%;
     }
        .secondary_button {
          background-color: transparent;
@@ -137,7 +136,7 @@
         border-radius: 5px;
         font-size: 12px;
         color: #0FAC11;
-        width: 70%;
+        width: 75%;
     }
           .download_section_container {
             background-image: url("@/assets/download_bg.png");
@@ -149,7 +148,7 @@
             justify-content: center;
             align-items: center;
             width: 100%;
-    }
+        }
     .mobile_img{
         display: none;
         margin: -40px auto ;
@@ -164,12 +163,23 @@
   
     }
     @media screen and (max-width: 700px) {
+            .download_section_container {
+            background-image: none;
+            background-repeat: no-repeat;
+            background-color: black;
+            background-size: auto;
+            display: flex;
+            margin: 0 auto;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
     .section_CTA {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        margin: 20px 0;
+        /* margin: 20px 0; */
         width: 100%;
     }
      .left_div {

@@ -1,9 +1,10 @@
 <template >
     <div class="hero_container">
         <div class="left_hero_text">
-            <p> <span class="smallbtn">Greach a Ride with a Trusted</span> <br>  <span class="third_text">Community of </span> <span class="third_text">Friends and </span> <span class="third_text">Professionals</span> 
+            <p> <span class="smallbtn">Greach a Ride with a Trusted</span> <br>  <span class="third_text">community of </span> <span class="third_text">friends and </span> <span class="third_text">professionals</span> 
+                <br> <span class="forth_text">on the go...</span> 
                 </p>
-                <p class="forth_text">on the go...</p> 
+                <p ></p> 
             <p class="hero_subtext">Greach a Ride with a Trusted Community of Friends and Working Professionals</p>
             <div class="button_div">
                 <button class="primary_button">Download App</button>
@@ -22,7 +23,7 @@
         </div>
         <div class="">
             <img alt="Hero Img" class="web" src="@/assets/hero_img.png"/>
-            <img alt="Hero Img" class="mobile_img" src="@/assets/hero_img_mobile.png"/>
+            <!-- <img alt="Hero Img" class="mobile_img" src="@/assets/hero_img_mobile.png"/> -->
         </div>
     </div>
 </template>
@@ -57,9 +58,9 @@ color: #ffffff;
 .forth_text{
     font-weight: 800;
     font-size: 55.26px;
-    letter-spacing: 5.52632px;
+    letter-spacing: 6px;
     color: #ffffff;
-    margin-top: -15px;
+    /* margin-top: -15px; */
 }
 .left_hero_text {
      display: flex;
@@ -107,11 +108,12 @@ color: #ffffff;
         justify-content: space-around;
         width: 90%;
         margin: 9% auto 0;
+        /* height: 100vh; */
         /* background-image: url("@/assets/BG.svg"); */
     }
    
     .button_div{
-        width: 100% !important;
+        width: 90% !important;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -144,7 +146,7 @@ color: #ffffff;
         width: 100%;
     }
     .secondary_button:hover{
-        background-color: #00000000;
+        background-color: #0000001f;
         color: #ffffff;
         cursor: pointer;
         transition: 0.3s;
@@ -168,7 +170,7 @@ color: #ffffff;
             line-height: 40px;
             letter-spacing: 5.52632px;
             color: #ffffff;
-            width: 100%;
+            /* width: 100%; */
         }
         .forth_text{
             font-weight: 800;

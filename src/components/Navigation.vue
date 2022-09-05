@@ -52,8 +52,8 @@ export default {
   justify-content: space-between;
   align-items: center;
   padding: 20px 5%;
-  background: #0000000a;
-  backdrop-filter: blur(10px);
+  background: #00000019;
+  backdrop-filter: blur(20px);
   position: fixed;
   z-index: 2;
   transition: 0.5s ease all;
