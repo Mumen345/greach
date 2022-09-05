@@ -1,7 +1,7 @@
 <template>
     <div class="download_section_container">
         <div class="left_div">
-            <p class="section_text"><span>Download</span>  our <span>App</span> </p>
+            <p class="section_text">Download our App </p>
             <div class="download_link">
              <a href="#"><img alt="apple logo" src="@/assets/appstore.svg"/></a>
              <a href="#"><img alt="play store logo" src="@/assets/googleplay.svg"/></a>
@@ -78,7 +78,7 @@
     .primary_button{
           background-color: #0FAC11;
                 border: 1px solid #0FAC11;
-
+        width: 100%;
         color: #ffffff;
         font-weight: 700;
          padding: 1.3em 3.5em;
@@ -100,6 +100,7 @@
         border-radius: 5px;
         font-size: 12px;
         color: #0FAC11;
+        width: 100%;
     }
       .secondary_button:hover{
         cursor: pointer;
@@ -161,5 +162,26 @@
         margin: 70px auto ;
     }
   
+    }
+    @media screen and (max-width: 700px) {
+    .section_CTA {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 0;
+        width: 100%;
+    }
+     .left_div {
+        width: 100%;
+        margin: 70px auto ;
+    }
+    .section_text {
+        color: #ffffff;
+         font-size: 30px;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 5px;
+    }
     }
 </style>

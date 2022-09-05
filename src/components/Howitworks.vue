@@ -36,9 +36,7 @@
 <script setup>
 </script>
 <style scoped>
-.hiw_container img {
-    /* margin: 30px; */
-}
+
 
 .hiw_container {
     display: flex;
