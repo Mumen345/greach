@@ -22,13 +22,16 @@
    
         </div>
         <div class="">
-            <img alt="Hero Img" class="logo" src="@/assets/hero_img.png"/>
+            <img alt="Hero Img" class="web" src="@/assets/hero_img.png"/>
+            <img alt="Hero Img" class="mobile" src="@/assets/hero_img_mobile.png"/>
         </div>
     </div>
 </template>
 <script setup>
 </script>
 <style scoped>
+
+
 .hero_stats {
     display: flex;
     flex-direction: row;
@@ -149,9 +152,31 @@ color: #ffffff;
         color: #ffffff;
     }
     /*  */
-    @media screen and (max-width: 1080px) {
-    .web{
+    .mobile{
+display: none;
+}
+    @media screen and (max-width: 700px) {
+          .button_div{
+        width: 100%;
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 30px;
+        /* background-color: red; */
+        margin: 40px auto;
+    }
+        .mobile{
+    display: block;
+    }
+       .web{
       display: none;
+    }
+    }
+    @media screen and (max-width: 1080px) {
+    /* .web{
+      display: none;
+    } */
+    .mobile {
+        display: none;
     }
      .hero_container{
         display: flex;
@@ -176,10 +201,9 @@ color: #ffffff;
     }
       .button_div{
         width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin: 20px auto;
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 30px;
     }
     .hero_stats {
     display: flex;
@@ -191,4 +215,5 @@ color: #ffffff;
    
 }
 }
+
 </style>

@@ -161,9 +161,9 @@ input {
     font-size: 15px;
     color: #404040;
 }
-.accordion-label:hover {
-    /* background: #000000; */
-}
+/* .accordion-label:hover {
+    background: #000000;
+} */
 .accordion-label::after {
     content: "\276F";
     width: 16px;

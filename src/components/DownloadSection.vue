@@ -73,7 +73,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        margin-top: 20px;
+        margin: 20px 0;
     }
     .primary_button{
           background-color: #0FAC11;
@@ -109,13 +109,45 @@
 
     }
     @media screen and (max-width: 1080px) {
+         .section_CTA {
+            width: 100%;
+            display: flex !important;
+            flex-direction: column !important;
+            gap: 30px;
+            justify-content: center;
+            align-items: center;
+    }
+       .primary_button{
+            background-color: #0FAC11;
+            border: 1px solid #0FAC11;
+            color: #ffffff;
+            font-weight: 700;
+            padding: 1.3em 3.5em;
+            font-size: 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 70%;
+    }
+       .secondary_button {
+         background-color: transparent;
+        padding: 1.3em 3.5em;
+        cursor: pointer;
+        border: 1px solid #0FAC11;
+        border-radius: 5px;
+        font-size: 12px;
+        color: #0FAC11;
+        width: 70%;
+    }
           .download_section_container {
-        background-image: url("@/assets/download_bg.png");
-        background-repeat: no-repeat;
-        background-size: auto;
-        height: 340px;
-        display: block;
-        margin: 0 auto;
+            background-image: url("@/assets/download_bg.png");
+            background-repeat: no-repeat;
+            background-size: auto;
+            height: 340px;
+            display: flex;
+            margin: 0 auto;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
     }
     .mobile_img{
         display: none;

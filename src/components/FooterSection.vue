@@ -3,8 +3,8 @@
         <div class="footer_container">
             <div class="left_div">
                 <div class="logo_div">
-                <img alt="foter Img" class="" src="@/assets/footer_logo.svg"/>
-                <h4 class="logo_div_text">Greach</h4>
+                    <img alt="Hero Img" class="logo" src="@/assets/greach_logo.png"/>
+               
                 </div>
                 <p class="company_description">Greach is a sustainability-driven mobility platform to ease employee commuting problems through carpooling.
                 </p>
