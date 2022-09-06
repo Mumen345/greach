@@ -1,10 +1,9 @@
 <template >
     <div class="hero_container">
-        <div class="left_hero_text">
+        <div v-motion-slide-left :delay="700" class="left_hero_text">
             <p> <span class="smallbtn">Greach a Ride with a Trusted</span> <br>  <span class="third_text">community of </span> <span class="third_text">friends and </span> <span class="third_text">professionals</span> 
                 <br> <span class="forth_text">on the go...</span> 
                 </p>
-                <p ></p> 
             <p class="hero_subtext">Greach a Ride with a Trusted Community of Friends and Working Professionals</p>
             <div class="button_div">
                 <button class="primary_button">Download App</button>
@@ -21,7 +20,7 @@
             </div>
         </div> -->
         </div>
-        <div class="">
+        <div v-motion-slide-right :delay="700" class="">
             <img alt="Hero Img" class="web" src="@/assets/hero_img.png"/>
             <!-- <img alt="Hero Img" class="mobile_img" src="@/assets/hero_img_mobile.png"/> -->
         </div>

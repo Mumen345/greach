@@ -1,11 +1,11 @@
 <template>
   <nav class="nav_bar">
-    <RouterLink class="" to="/"><img alt="Hero Img" class="logo" src="@/assets/greach_logo.png"/></RouterLink>
+    <a class="" to="/"><img alt="Hero Img" class="logo" src="@/assets/greach_logo.png"/></a>
     
     <div class="web">
-      <RouterLink to="#">How it works</RouterLink>
-      <RouterLink class="middle_links" to="#">Download</RouterLink>
-      <RouterLink to="#">Contact Us</RouterLink>
+      <a to="#">How it works</a>
+      <a class="middle_links" to="#">Download</a>
+      <a to="#">Contact Us</a>
     </div>
     <button  class="nav_button web">Join Waitlist</button>
     <span class="mobile menu_btn" style="font-size:30px;cursor:pointer;" @click="openNav">&#9776;</span>
@@ -13,9 +13,9 @@
   <div  class="mobile">
     <div id="myNav" class="overlay">
       <a class="closebtn" @click.prevent="closeNav">&times;</a>
-      <div class="overlay-content">   <RouterLink to="#">How it works</RouterLink>
-      <RouterLink class="middle_links" to="#">Download</RouterLink>
-      <RouterLink to="#">Contact Us</RouterLink>
+      <div class="overlay-content">   <a to="#">How it works</a>
+      <a class="middle_links" to="#">Download</a>
+      <a to="#">Contact Us</a>
       <br>
       <br>
       <button  class="nav_button">Join Waitlist</button>
@@ -66,8 +66,8 @@ export default {
    margin:0 30px
 }
 a{
-    color: #0FAC11;
-    font-weight: 600;
+    color: #0FAC11 !important;
+    font-weight: 500 !important;
 
 }
 .nav_button {
@@ -90,7 +90,7 @@ a{
   z-index: 4;
   top: 0;
   left: 0;
-    background-color: #ffffff;
+  background-color: #ffffff;
   background-color: #000000e6;
   overflow-x: hidden;
   transition: 0.5s;

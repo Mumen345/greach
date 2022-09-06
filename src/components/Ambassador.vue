@@ -1,5 +1,5 @@
 <template>
-    <div class="ambassador_container">
+    <div v-motion-slide-visible-once-left :delay="700"  class="ambassador_container">
         <div class="ambassador_writeup">
             <div>
                 <p class="ambassador_header">Be a Greach Ambassador</p>
@@ -7,7 +7,7 @@
             </div>
             <button class="primary_button">I'm Interested</button>
         </div>
-        <img alt="phone mockup" class="web_img" src="@/assets/ambassador_img.png"/>
+        <img v-motion-slide-visible-once-right :delay="700" alt="phone mockup" class="web_img" src="@/assets/ambassador_img.png"/>
     </div>
 </template>
 <script>

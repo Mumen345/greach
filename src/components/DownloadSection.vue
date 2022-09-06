@@ -1,6 +1,6 @@
 <template>
     <div class="download_section_container">
-        <div class="left_div">
+        <div v-motion-slide-visible-once-bottom :delay="500" class="left_div">
             <p class="section_text">Download our App </p>
             <div class="download_link">
              <a href="#"><img alt="apple logo" src="@/assets/appstore.svg"/></a>
@@ -11,7 +11,7 @@
                 <button class="secondary_button">Signup as a Driver</button>
             </div>
        </div>
-        <div class="move_down"><img alt="phone mockup" class="web_img" src="@/assets/Mockups.png"/><img alt="phone mockup" class="mobile_img" src="@/assets/Mockups.png"/></div>
+        <div v-motion-slide-visible-once-bottom :delay="700" class="move_down"><img alt="phone mockup" class="web_img" src="@/assets/Mockups.png"/><img alt="phone mockup" class="mobile_img" src="@/assets/Mockups.png"/></div>
     </div>
 </template>
 <script setup>

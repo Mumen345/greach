@@ -1,5 +1,5 @@
 <template>
-<div class="hiw_container">
+<div v-motion-pop-visible-once :delay="700" class="hiw_container">
     <div class="hiw_writeup_div">
         <div>
             <p class="HIW_text">How it works</p>   
