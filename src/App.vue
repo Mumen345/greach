@@ -1,29 +1,32 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+
 // import HelloWorld from './components/HelloWorld.vue'
-import Navigation from './components/Navigation.vue' 
-import Howitworks from './components/Howitworks.vue' 
-import DownloadSection from './components/DownloadSection.vue' 
-import Waitlist from './components/Waitlist.vue' 
+import HomeView from './views/HomeView.vue';
+// import Navigation from './components/Navigation.vue' 
+// import Howitworks from './components/Howitworks.vue' 
+// import DownloadSection from './components/DownloadSection.vue' 
+// import Waitlist from './components/Waitlist.vue' 
 // import Newsletter from './components/Newsletter.vue' 
-import Ambassador from './components/Ambassador.vue' 
-import Hero from './components/Hero.vue'
-import Faq from './components/Faq.vue' 
-import FooterSection from './components/FooterSection.vue' 
+// import Ambassador from './components/Ambassador.vue' 
+// import Hero from './components/Hero.vue'
+// import Faq from './components/Faq.vue' 
+// import FooterSection from './components/FooterSection.vue' 
 </script>
 
 <template>
-<div class="headersection">
+  <HomeView />
+<!-- <div class="headersection">
   <Navigation />
   <Hero />
 </div>
   <Howitworks />
   <DownloadSection />
-  <Waitlist />
+  <Waitlist /> -->
   <!-- <Newsletter /> -->
-  <Faq />
+  <!-- <Faq />
   <Ambassador />
-  <FooterSection />
+  <FooterSection /> -->
     
     <!-- <HelloWorld /> -->
   <!-- <header>
@@ -42,12 +45,12 @@ import FooterSection from './components/FooterSection.vue'
 </template>
 
 <style >
- .headersection{
+ /* .headersection{
     background-image: url("@/assets/BG.svg");
     width: 100% !important;
     height: 100%;
-    /* padding-bottom: 70px; */
+    padding-bottom: 70px;
     background-repeat: repeat;
     background-size: cover;
- }
+ } */
 </style>

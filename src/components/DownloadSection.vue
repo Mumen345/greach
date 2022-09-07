@@ -71,45 +71,48 @@
     .section_CTA {
         display: flex;
         flex-direction: row;
-        justify-content: scenter;
+        justify-content: space-between;
         align-items: center;
+        gap: 20px;
+
     }
     .primary_button{
-          background-color: #0FAC11;
-                border: 1px solid #0FAC11;
-        width: 100%;
+        background-color: #0FAC11;
+        border: 1px solid #0FAC11;
+        width: 90%;
         color: #ffffff;
-        font-weight: 700;
-         padding: 1.3em 3.5em;
+        font-weight: 500;
+        padding: 1.3em 3.5em;
         font-size: 12px;
         border-radius: 5px;
         cursor: pointer;
+
     }
       .primary_button:hover{
         background-color: #056406;
         transition: 0.3s;
         cursor: pointer;
-         border: 1px solid #056406;
+        border: 1px solid #056406;
     }
     .secondary_button {
-         background-color: transparent;
+        background-color: transparent;
         padding: 1.3em 3.5em;
         cursor: pointer;
         border: 1px solid #0FAC11;
         border-radius: 5px;
         font-size: 12px;
         color: #0FAC11;
-        width: 100%;
+        width: 90%;
     }
       .secondary_button:hover{
         cursor: pointer;
         transition: 0.3s;
-          border: 1px solid #ffffff;
-          color: white;
+        border: 1px solid #ffffff;
+        color: white;
 
     }
     @media screen and (max-width: 1080px) {
-         .section_CTA {
+        .section_CTA {
             width: 100%;
             display: flex !important;
             flex-direction: column !important;
@@ -138,17 +141,17 @@
         color: #0FAC11;
         width: 75%;
     }
-          .download_section_container {
-            background-image: url("@/assets/download_bg.png");
-            background-repeat: no-repeat;
-            background-size: auto;
-            height: 340px;
-            display: flex;
-            margin: 0 auto;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-        }
+    .download_section_container {
+        background-image: url("@/assets/download_bg.png");
+        background-repeat: no-repeat;
+        background-size: auto;
+        height: 340px;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
     .mobile_img{
         display: none;
         margin: -40px auto ;
@@ -163,17 +166,17 @@
   
     }
     @media screen and (max-width: 700px) {
-            .download_section_container {
-            background-image: none;
-            background-repeat: no-repeat;
-            background-color: black;
-            background-size: auto;
-            display: flex;
-            margin: 0 auto;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-        }
+    .download_section_container {
+        background-image: none;
+        background-repeat: no-repeat;
+        background-color: black;
+        background-size: auto;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
     .section_CTA {
         display: flex;
         flex-direction: row;
