@@ -3,9 +3,9 @@
     <a class="" to="/"><img alt="Hero Img" class="logo" src="@/assets/greach_logo.png"/></a>
     
     <div class="web">
-      <a to="#">How it works</a>
-      <a class="middle_links" to="#">Download</a>
-      <a to="#">Contact Us</a>
+      <a >How it works</a>
+      <a class="middle_links" >Download</a>
+      <a >Contact Us</a>
     </div>
     <button  class="nav_button web">Join Waitlist</button>
     <span class="mobile menu_btn" style="font-size:30px;cursor:pointer;" @click="openNav">&#9776;</span>
@@ -13,9 +13,9 @@
   <div  class="mobile">
     <div id="myNav" class="overlay">
       <a class="closebtn" @click.prevent="closeNav">&times;</a>
-      <div class="overlay-content">   <a to="#">How it works</a>
-      <a class="middle_links" to="#">Download</a>
-      <a to="#">Contact Us</a>
+      <div class="overlay-content">   <a >How it works</a>
+      <a class="middle_links" >Download</a>
+      <a >Contact Us</a>
       <br>
       <br>
       <button  class="nav_button">Join Waitlist</button>
