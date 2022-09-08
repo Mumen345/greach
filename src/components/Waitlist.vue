@@ -4,31 +4,46 @@
             <p class="form_header">Join our Wait List</p>
             <form class="form_input" action="">
                 <div>
-                 <label for="cars">*Name :</label>
-                 <input id="name" required type="text" class="">
+                 <label for="name">*Name :</label>
+                 <input id="name"  v-model="selected.name" required type="text" class="">
                 </div>
                 <div>
-                    <label for="cars">*Email :</label>
-                    <input id="email"  type="email" required class="">
+                    <label for="email">*Email :</label>
+                    <input id="email"  v-model="selected.email"  type="email" required class="">
                 </div>
                 <div>
-                 <label for="cars">Where do you work :</label>
-                 <input id="name" required type="text" class="">
+                 <label for="work">Where do you work :</label>
+                 <input id="work"  v-model="selected.work" required type="text" class="">
                 </div>
-                <label for="cars">*Which would you prefer</label>
-                <select id="cars">
-                <option>Select one</option>
-                <option value="Yes">Driver</option>
-                <option value="Yes">Rider</option>
-                <option value="both">Both</option>
-                </select>
+                <div>
+                    <label for="pow">*Which would you prefer</label>
+                    <select id="pow" v-model="selected.owner">
+                    <option disabled>Please select one</option>
+                    <option>Driver</option>
+                    <option>Rider</option>
+                    <option>Both</option>
+                    </select>
+                </div>
                 <button class="primary_button">Join</button>
             </form>
         </div>
     </div>
 </template>
-<script setup>
+<script>
+export default {
+    data() {
+    return {
+      selected: {
+        name:"",
+        email:"",
+        work:"",
+        owner:""
 
+      },
+
+    }
+  }
+}
 </script>
 <style scoped>
 
