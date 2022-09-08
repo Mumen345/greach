@@ -1,6 +1,6 @@
 <template>
   <nav class="nav_bar">
-    <a class="" to="/"><img alt="Hero Img" class="logo" src="@/assets/greach_logo.png"/></a>
+    <a class=""><img alt="Hero Img" class="logo" src="@/assets/greach_logo.png"/></a>
     
     <div class="web">
       <a >How it works</a>
